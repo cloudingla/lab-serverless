@@ -24,13 +24,16 @@ Abrir una terminal y dirigirse al directorio Frontend
 ## Estructura
 
 * Los servicios creados en AWS están en el siguiente directorio:
+```
 └── {backend}
     └── lib/
     └──── api_gateway_template_javascript-stack.js
+```
 
 * El código de las funciones lambda esta en el siguiente directorio:
+```
 └── {backend}
     └── functions/
     └──── createItem.js
     └──── getItems.js
-
+```
